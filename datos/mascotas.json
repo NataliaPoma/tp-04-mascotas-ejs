@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Luna",
+    "especie": "Perro",
+    "edad": 2,
+    "descripcion": "Cachorra juguetona y cariñosa.",
+    "estado": "En adopción",
+    "imagen": "/img/luna.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Milo",
+    "especie": "Gato",
+    "edad": 0,
+    "descripcion": "Tranquilo y muy mimoso.",
+    "estado": "Reservada",
+    "imagen": "/img/milo.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Rocky",
+    "especie": "Perro",
+    "edad": 6,
+    "descripcion": "Raza pequeña, tranquilo y cariñoso.",
+    "estado": "En adopción",
+    "imagen": "/img/rocky.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Cleopatra",
+    "especie": "Gato",
+    "edad": 5,
+    "descripcion": "Enérgica y juguetona.",
+    "estado": "Reservada",
+    "imagen": "/img/cleopatra.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Tomi",
+    "especie": "Perro",
+    "edad": 0,
+    "descripcion": "Cachorro de pocos meses, raza mediana, juguetón.",
+    "estado": "En adopción",
+    "imagen": "/img/tomi.png"
+  }
+]

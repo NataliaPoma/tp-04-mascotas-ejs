@@ -1,0 +1,20 @@
+<main class="contenedor">
+  <article class="detalle">
+    <!-- Imagen principal de la mascota -->
+    <img src="<%= mascota.imagen %>" alt="Imagen de <%= mascota.nombre %>" style="width:100%; height:auto; object-fit:cover; border-radius:0.75rem; margin-bottom:1rem;">
+
+    <!-- Nombre destacado -->
+    <h1><%= mascota.nombre %></h1>
+
+    <!-- Datos básicos -->
+    <p><strong>Especie:</strong> <%= mascota.especie %></p>
+    <p><strong>Edad:</strong> <%= mascota.edad %> años</p>
+    <p><strong>Estado:</strong> <%= mascota.estado %></p>
+
+    <!-- Descripción -->
+    <p><%= mascota.descripcion %></p>
+
+    <!-- Botón para volver -->
+    <a href="/mascotas" class="boton">Volver al catálogo</a>
+  </article>
+</main>
