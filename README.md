@@ -67,14 +67,23 @@ Cuando se busca una mascota que no existe, se muestra la vista no-encontrado.ejs
 Se recorrieron todas las páginas y flujos obligatorios para comprobar la funcionalidad de la aplicación:
 
 — Inicio (/) → responde 200, muestra título y enlace al catálogo.
+
 — Listado (/mascotas) → responde 200, renderiza las cinco mascotas iniciales.
+
 — Estado vacío → responde 200, muestra mensaje alternativo cuando no hay registros.
+
 — Detalle válido (/mascotas/:id) → responde 200, muestra datos completos e imagen.
+
 — Detalle inexistente → responde 404, renderiza la página de error.
+
 — Formulario (/mascotas/nueva) → responde 200, incluye todos los controles etiquetados.
+
 — Envío incompleto o edad inválida → responde 400, muestra mensaje de error y conserva valores.
+
 — Envío válido (POST /mascotas) → responde 302 seguido de 200, redirige al listado y muestra la nueva tarjeta.
+
 — Recursos estáticos → CSS, SVG y JS cargan correctamente (mensaje en consola visible).
+
 — Reinicio del servidor → responde 200, vuelve al estado inicial con cinco registros, confirmando que los nuevos se borran al reiniciar.
 
 En conclusión, la aplicación cumple con todos los casos de prueba definidos en la consigna y demuestra el comportamiento esperado de creación en memoria y redirección.
